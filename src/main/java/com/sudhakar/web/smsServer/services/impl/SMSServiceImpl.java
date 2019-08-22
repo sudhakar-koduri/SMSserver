@@ -15,7 +15,6 @@ import com.sudhakar.web.exceptions.LimitExceedException;
 import com.sudhakar.web.smsServer.DAOS.PhoneNumberDAORepository;
 import com.sudhakar.web.smsServer.DAOS.model.Account;
 import com.sudhakar.web.smsServer.DAOS.model.PhoneNumber;
-import com.sudhakar.web.smsServer.Session.LoginSession;
 import com.sudhakar.web.smsServer.services.SMSCacheManager;
 import com.sudhakar.web.smsServer.services.SMSService;
 import com.sudhakar.web.smsServer.util.SMSRequest;

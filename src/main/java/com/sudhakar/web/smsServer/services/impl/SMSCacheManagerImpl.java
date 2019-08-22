@@ -39,7 +39,7 @@ public class SMSCacheManagerImpl implements SMSCacheManager {
 		}
 		
 		Integer currLimit = Integer.parseInt(value);
-		if ( currLimit.intValue() < 5 )
+		if ( currLimit.intValue() < 50 )
 		{
 			cacheLimitDetails(fromNumber, currLimit.intValue()+1);
 		}
